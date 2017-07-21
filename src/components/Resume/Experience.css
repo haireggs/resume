@@ -1,0 +1,11 @@
+
+.normal {
+}
+
+.title {
+	composes: title from './About.css';
+	line-height: 4em;
+}
+.text {
+	font-size:  2em;
+}

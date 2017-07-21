@@ -1,0 +1,7 @@
+.normal {
+	margin-bottom: 30px;
+}
+
+.title {
+	composes: title from './About.css';
+}

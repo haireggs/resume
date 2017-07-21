@@ -1,0 +1,12 @@
+
+.normal {
+	margin-bottom: 30px;
+}
+
+.text {
+	text-align: right;
+}
+
+.title {
+	composes: title from './About.css';
+}

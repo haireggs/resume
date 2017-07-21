@@ -1,0 +1,18 @@
+
+.normal {
+	
+	//display: flex;
+	//justify-content: space-around;
+}
+
+:global(.contentContainer) {
+	padding:0 2%;
+	max-width: 1400px;
+}
+
+@media screen and (min-width:1401px) {
+	:global(.contentContainer){
+		max-width: 1400px;
+		margin: auto;
+	}
+}

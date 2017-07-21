@@ -1,0 +1,64 @@
+
+.normal {
+	margin-bottom: 30px;
+}
+
+.card {
+	padding: 0;	
+	height: 100%;
+}
+
+.img {
+		width: 100%;	
+}
+
+.title {
+	font-size: 1.8em;
+	line-height: 3em;
+	color: #108ee9;
+}
+
+.text {
+	font-size: 1.3em;
+}
+
+.cardGray {
+	composes: card;
+	background-color: gray;
+}	
+
+.cardDetail {
+	composes: cardGray;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+
+.portraitDiv {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.portrait {
+	width: 8em;
+	border: 0.3em solid #108ee9;
+}
+
+.hr {
+	margin-bottom: 20px;
+}
+
+.info {
+	font-size: 1.3em;
+	color: white;
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+
+.detail {
+	composes: info;
+	text-align: left;
+	line-height: 2em;
+	margin: 0 2%;
+}
